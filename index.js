@@ -34,7 +34,7 @@ for (let i=1;i<101;i++){
 next();
 })
 
-// runing the server on port : 5000 : you must on tippe on terminal  "nodemon server"
+// runing the server on port : 5000 : you must  tippe on terminal  "nodemon server"
 app.listen(port,(req,res)=>{
 
 console.log(`the port is listenning on ${port}`)
@@ -43,7 +43,7 @@ console.log(`the port is listenning on ${port}`)
 
 
 
-/// exemple when you put this url in the browser : http://localhost:5000/test/15 : the output will be :
+/// exemple when you put this url on the browser : http://localhost:5000/test/15 : the output will be :
 // {
 // "status": 0,
 // "message": "FIZZBUZZ'"
